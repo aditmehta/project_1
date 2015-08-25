@@ -1,0 +1,30 @@
+#services {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF; }
+  #services .title {
+    text-align: center;
+    margin-top: 3em;
+    color: #799bc0; }
+    #services .title .p {
+      text-align: center; }
+  #services .fa-wrench {
+    padding: 25 170;
+    color: #f6c05c; }
+  #services .fa-shopping-cart {
+    padding: 25 0 0 75;
+    color: #719ec8; }
+  #services .fa-clone {
+    padding: 25 170;
+    color: #719ec8; }
+  #services .fa-line-chart {
+    padding: 25 0 0 75;
+    color: #719ec8; }
+  #services .fa-tachometer {
+    padding: 25 170;
+    color: #719ec8; }
+  #services .fa-globe {
+    padding: 25 0 0 75;
+    color: #719ec8; }
+
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,40 @@
+#services {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF; 
+
+  .title {
+    text-align: center;
+    margin-top: 3em; 
+    color: #799bc0;
+
+  .p{
+    text-align: center;
+  }
+  
+  }
+  .fa-wrench{
+    padding: 25 170; 
+    color: #f6c05c;
+  }
+  .fa-shopping-cart{
+    padding: 25 0 0 75;
+    color: #719ec8;
+  }
+  .fa-clone{
+    padding: 25 170;
+    color: #719ec8;
+  }
+  .fa-line-chart{
+    padding: 25 0 0 75;
+    color: #719ec8;
+  }
+  .fa-tachometer{
+    padding: 25 170;
+    color: #719ec8;
+  }
+  .fa-globe{
+    padding: 25 0 0 75;
+    color: #719ec8;
+  }
+}

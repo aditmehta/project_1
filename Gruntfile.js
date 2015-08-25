@@ -5,6 +5,7 @@ module.exports = function(grunt){
       files: {                         // Dictionary of files 
         'assets/stylesheets/styles.css': 'assets/stylesheets/styles.scss',
         'assets/stylesheets/home.css': 'assets/stylesheets/home.scss',       
+        'assets/stylesheets/services.css': 'assets/stylesheets/services.scss'
       }
     }
   },
@@ -17,7 +18,8 @@ module.exports = function(grunt){
   cssmin: {
     target: {
       files: {
-        'output.css': ['assets/stylesheets/styles.css','assets/stylesheets/home.css']
+        'output.css': ['assets/stylesheets/styles.css','assets/stylesheets/home.css',
+        'assets/stylesheets/services.css']
       }
     }
   }
