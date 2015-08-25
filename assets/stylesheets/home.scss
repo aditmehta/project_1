@@ -1,0 +1,29 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/home.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  color: #FFF;
+  text-align: center;
+
+  a, a:hover {
+    background-color: #719ec8;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    font-weight: 700;
+    display: inline-block;
+    margin: 2em 0;
+  }
+}
+
+
+.tagline{
+  padding-left: 3em;
+  font-family: 'Pacifico', cursive;
+  color: #f6c05c;
+}
+
