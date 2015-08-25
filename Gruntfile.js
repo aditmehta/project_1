@@ -5,7 +5,8 @@ module.exports = function(grunt){
       files: {                         // Dictionary of files 
         'assets/stylesheets/styles.css': 'assets/stylesheets/styles.scss',
         'assets/stylesheets/home.css': 'assets/stylesheets/home.scss',       
-        'assets/stylesheets/services.css': 'assets/stylesheets/services.scss'
+        'assets/stylesheets/services.css': 'assets/stylesheets/services.scss',
+        'assets/stylesheets/about.css': 'assets/stylesheets/about.scss'
       }
     }
   },
@@ -19,7 +20,7 @@ module.exports = function(grunt){
     target: {
       files: {
         'output.css': ['assets/stylesheets/styles.css','assets/stylesheets/home.css',
-        'assets/stylesheets/services.css']
+        'assets/stylesheets/services.css','assets/stylesheets/about.css']
       }
     }
   }
