@@ -11,12 +11,20 @@ module.exports = function(grunt){
   watch: {
     css: {
       files: ['assets/stylesheets/*.scss'],
-      tasks: ['sass'],
+      tasks: ['sass', 'cssmin'],
     },
+  },
+  cssmin: {
+    target: {
+      files: {
+        'output.css': ['assets/stylesheets/styles.css','assets/stylesheets/home.css']
+      }
+    }
   }
-  });
+});
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default',['sass','watch']);
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.registerTask('default',['sass','cssmin','watch']);
 };
