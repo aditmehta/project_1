@@ -1,0 +1,39 @@
+#testimonials {
+  font-weight: bold; }
+  #testimonials .h2 {
+    color: blue;
+    text-align: center; }
+  #testimonials .p {
+    font-weight: 300; }
+  #testimonials .test-left {
+    border: 1px solid transparent;
+    background-color: rgba(231, 227, 236, 0);
+    align: center; }
+  #testimonials .test-left p {
+    float: right;
+    max-width: 30em; }
+  #testimonials .test-right {
+    border: 1px solid transparent;
+    background-color: rgba(231, 227, 236, 0);
+    align: center; }
+  #testimonials .test-right p {
+    max-width: 30em;
+    float: left; }
+  #testimonials .container {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    #testimonials .container .container .col-sm-2, #testimonials .container .container .col-sm-3,
+    #testimonials .container .col-sm-1, #testimonials .container .col-sm-6 {
+      padding: 0;
+      margin: 0; }
+    #testimonials .container .container .col-sm-2 i {
+      float: right; }
+    #testimonials .container .container .col-sm-3 p {
+      padding-left: 1em; }
+    #testimonials .container .container .col-sm-1 i {
+      padding-left: 6em; }
+    #testimonials .container .container i {
+      padding-top: .2em; }
+
+/*# sourceMappingURL=testimonials.css.map */
