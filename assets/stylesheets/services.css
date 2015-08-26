@@ -6,8 +6,10 @@
     text-align: center;
     margin-top: 3em;
     color: #799bc0; }
-    #services .title .p {
-      text-align: center; }
+  #services .first {
+    padding-right: 4em; }
+  #services .second {
+    padding-left: 3em; }
   #services .fa-wrench {
     padding: 25 170;
     color: #f6c05c; }

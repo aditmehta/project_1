@@ -1,9 +1,9 @@
 #testimonials {
   font-weight: bold; }
-  #testimonials .h2 {
+  #testimonials h2 {
     color: blue;
     text-align: center; }
-  #testimonials .p {
+  #testimonials p {
     font-weight: 300; }
   #testimonials .test-left {
     border: 1px solid transparent;

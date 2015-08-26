@@ -1,31 +1,29 @@
 #about {
   display: inline-block;
-  background-color: yellow;
+  background-color: #ffc056;
   width: 100%;
   background-size: cover; }
+  #about .xyz {
+    color: #FFFFFF;
+    padding-left: 2.5em; }
   #about a, #about a:hover {
     background-color: #e7ad4a;
     color: #FFF;
     text-decoration: none;
-    padding: 1em 1em;
+    padding: 1em;
     border-radius: 0.5em;
     font-weight: 700;
     display: inline-block; }
+  #about .ba {
+    margin-left: 4.5em; }
   #about .text {
     color: #FFFFFF;
     padding-left: 4.7em;
     width: 40em;
-    text-align: center; }
-  #about .full {
-    width: 100%;
-    margin: 0; }
+    text-align: left; }
   #about .picture {
     display: inline-block;
     padding: 0%;
     position: relative; }
-  #about .plain {
-    text-align: center;
-    display: inline-block;
-    background-size: cover; }
 
 /*# sourceMappingURL=about.css.map */
