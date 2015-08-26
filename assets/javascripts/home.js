@@ -4,4 +4,5 @@ $(document).ready(function() {
       top: 100
     }
   });
+  $('.carousel').carousel()
 })

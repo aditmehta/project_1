@@ -1,31 +1,34 @@
-#portfolio.container-fluid{
+#portfolio{
   text-align: center;
   width: 100%; 
 
-  table {
-    width: 100%; 
+  .img-responsive{
+    margin: 0;
+    width: 100%;
+    padding: 0;
   }
+
+  .col-sm-3{
+    padding: 0;
+  }
+
+  p{
+    padding-bottom: 1em;
+  }
+
   h2 {
     padding-bottom: 1em;
-    color: blue;
-    font-weight: bold; 
-  }
-  .col-sm-3 {
-    padding: 0px;
-    margin: 0px; 
+    color: #739ecb; 
   }
 
   a {
-    font-weight: bold;
-    margin: 0.75em;
-    padding: 1em .5em 1em .5em;
+    margin: 1em;
     border: 1px solid transparent;
     color: #000;
-    border-radius: 1em; 
     text-decoration: none;
     
     &:hover {
-      background-color: blue;
+      background-color: #729ccc;
       color: white; 
     }
   } 

@@ -1,25 +1,24 @@
-#portfolio.container-fluid {
+#portfolio {
   text-align: center;
   width: 100%; }
-  #portfolio.container-fluid table {
-    width: 100%; }
-  #portfolio.container-fluid h2 {
+  #portfolio .img-responsive {
+    margin: 0;
+    width: 100%;
+    padding: 0; }
+  #portfolio .col-sm-3 {
+    padding: 0; }
+  #portfolio p {
+    padding-bottom: 1em; }
+  #portfolio h2 {
     padding-bottom: 1em;
-    color: blue;
-    font-weight: bold; }
-  #portfolio.container-fluid .col-sm-3 {
-    padding: 0px;
-    margin: 0px; }
-  #portfolio.container-fluid a {
-    font-weight: bold;
-    margin: 0.75em;
-    padding: 1em .5em 1em .5em;
+    color: #739ecb; }
+  #portfolio a {
+    margin: 1em;
     border: 1px solid transparent;
     color: #000;
-    border-radius: 1em;
     text-decoration: none; }
-    #portfolio.container-fluid a:hover {
-      background-color: blue;
+    #portfolio a:hover {
+      background-color: #729ccc;
       color: white; }
 
 /*# sourceMappingURL=portfolio.css.map */

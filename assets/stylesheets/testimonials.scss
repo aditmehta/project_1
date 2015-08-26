@@ -1,57 +1,56 @@
-#testimonials {
-font-weight: bold; 
-  
+#testimonials { 
+
     h2 {
-    color: blue;
-    text-align: center; 
+        color: #7aa0c7;
+        text-align: center; 
     }
-  
+    .fa{
+        padding-left: 14em;
+    }
+
     p {
-    font-weight: 300; 
-    }
-  
-  
-    .test-left {
-    border: 1px solid transparent;
-    background-color: rgba(231, 227, 236, 0);
-    align: center; 
+        font-weight: 300; 
+        padding-left: 8em;
     }
 
     .test-left p {
-    float: right;
-    max-width: 30em; 
+        float: right;
+        padding-right: 4em;
+        padding-left: 6em;
+        padding-top: 2em;
+        max-width: 30em; 
+        padding-bottom: 2em;
     }
-  
-    .test-right {
-    border: 1px solid transparent;
-    background-color: rgba(231, 227, 236, 0);
-    align: center; 
-    }
+
     .test-right p {
-    max-width: 30em;
-    float: left; 
+        max-width: 30em;
+        padding-right: 4em;
+        padding-left: 6em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        float: left; 
     }
     .container {
-    padding: 0;
-    margin: 0;
-    width: 100%; 
+        padding: 0;
+        margin: 0;
+        width: 100%; 
 
     .container .col-sm-2, .container .col-sm-3, 
     .col-sm-1,.col-sm-6 {
-      padding: 0;
-      margin: 0; 
+        padding: 0;
+        margin: 0; 
     }
-    .container .col-sm-2 i {
-      float: right; 
+      .container .col-sm-2 i {
+        float: right; 
     }
     .container .col-sm-3 p {
-      padding-left: 1em; 
+        padding-left: 1em; 
     }
     .container .col-sm-1 i {
-      padding-left: 6em; 
+        padding-left: 6em; 
     }
     .container i {
-      padding-top: .2em; 
+        padding-top: .2em; 
     }
-  }
+}
 }
