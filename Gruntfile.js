@@ -6,7 +6,8 @@ module.exports = function(grunt){
         'assets/stylesheets/styles.css': 'assets/stylesheets/styles.scss',
         'assets/stylesheets/home.css': 'assets/stylesheets/home.scss',       
         'assets/stylesheets/services.css': 'assets/stylesheets/services.scss',
-        'assets/stylesheets/about.css': 'assets/stylesheets/about.scss'
+        'assets/stylesheets/about.css': 'assets/stylesheets/about.scss',
+        'assets/stylesheets/portfolio.css': 'assets/stylesheets/portfolio.scss'
       }
     }
   },
@@ -20,7 +21,7 @@ module.exports = function(grunt){
     target: {
       files: {
         'output.css': ['assets/stylesheets/styles.css','assets/stylesheets/home.css',
-        'assets/stylesheets/services.css','assets/stylesheets/about.css']
+        'assets/stylesheets/services.css','assets/stylesheets/about.css','assets/stylesheets/portfolio.css']
       }
     }
   }

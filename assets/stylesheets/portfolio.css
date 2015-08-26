@@ -1,0 +1,25 @@
+#portfolio.container-fluid {
+  text-align: center;
+  width: 100%; }
+  #portfolio.container-fluid table {
+    width: 100%; }
+  #portfolio.container-fluid h2 {
+    padding-bottom: 1em;
+    color: blue;
+    font-weight: bold; }
+  #portfolio.container-fluid .col-sm-3 {
+    padding: 0px;
+    margin: 0px; }
+  #portfolio.container-fluid a {
+    font-weight: bold;
+    margin: 0.75em;
+    padding: 1em .5em 1em .5em;
+    border: 1px solid transparent;
+    color: #000;
+    border-radius: 1em;
+    text-decoration: none; }
+    #portfolio.container-fluid a:hover {
+      background-color: blue;
+      color: white; }
+
+/*# sourceMappingURL=portfolio.css.map */
